@@ -2,6 +2,11 @@ import re
 
 
 def count_word_occurrences(sentences, words):
+    """
+    :param sentences: the sentences of words we are checking
+    :param words: words to check and count
+    :return: dict of each word and counter of occurrences
+    """
     word_count = {}
 
     # Initialize the count dictionary with 0 for each word
